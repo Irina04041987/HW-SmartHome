@@ -54,7 +54,6 @@ public class Radio {
             return;
         }
         setCurrentVolume(getCurrentVolume() + 1);
-        ;
     }
 
     void volumeMinus() {
@@ -62,6 +61,5 @@ public class Radio {
             return;
         }
         setCurrentVolume(getCurrentVolume() - 1);
-        ;
     }
 }
